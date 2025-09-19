@@ -22,13 +22,13 @@ Outputs: GeoTIFF (1 band, float32, 0–1, GIS-ready) and PNG preview.
 * Quick check: run the self-test to confirm the scoring logic.
 
 ## Method (summary)
-* * Regex-based tagging of polygons into A and B (text columns).
-** Separate geometric unions for groups A and B.
-** Regular grid over the extent (resolution = RES_M).
-** For each cell center: vector distances dA and dB (Shapely).
-** Linear decay: f(d) = max(0, 1 − d / DECAY_M).
-** Final score: fA × fB (high only if close to both).
-** Export: 0–1 GeoTIFF + PNG + summary (metadata).
+*  Regex-based tagging of polygons into A and B (text columns).
+* Separate geometric unions for groups A and B.
+* Regular grid over the extent (resolution = RES_M).
+* For each cell center: vector distances dA and dB (Shapely).
+* Linear decay: f(d) = max(0, 1 − d / DECAY_M).
+* Final score: fA × fB (high only if close to both).
+* Export: 0–1 GeoTIFF + PNG + summary (metadata).
 
 ## Key Parameters
 * RES_M: detail vs. time/memory tradeoff.
