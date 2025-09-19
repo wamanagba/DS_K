@@ -1,32 +1,50 @@
-## Cobalt Heatmap Generator
+# Proximity Heatmap (A×B)
+Generates a proximity map highlighting areas simultaneously close to two lithology groups:
+* Group A (ultramafic / serpentinized): ultramafic, serpentin*, dunite, harzburgite, peridotite, komatiite, ophiolite
+* Group B (granodiorite): granodior*
+Outputs: GeoTIFF (1 band, float32, 0–1, GIS-ready) and PNG preview.
 
-This repository contains a Python script that generates a **cobalt prospectivity heatmap** from geological bedrock polygons.  
-The method is based on **distance to specific rock types** and produces both a GIS-ready raster (`.tif`) and a visualization image (`.png`).
+## Prerequisites
+* Python ≥ 3.10
+* Dependencies: geopandas, rasterio, shapely, numpy, matplotlib
+* Tip: if installation fails (GDAL/GEOS/PROJ issues), use Conda (conda-forge channel).
 
----
+#To Configure (at the top of the script)
+* INPUT: path to BedrockP.gpkg
+* OUT_TIF / OUT_PNG: output paths
+* RES_M: cell size in meters (e.g., 250)
+* DECAY_M: influence distance where proximity drops to 0 (e.g., 10,000)
+* CRS_EPSG: projected EPSG in meters (e.g., 26910)
 
-## Problem & Approach
+## How to Run
+* In Jupyter: run the cells (config + functions), then call the main function to produce the GeoTIFF and PNG.
+* As a script: execute the Python file after adjusting paths and parameters.
+* Quick check: run the self-test to confirm the scoring logic.
 
-The challenge is to identify areas that are **potentially favorable for cobalt** by analyzing geological formations.  
-We assume that cobalt is most likely to be found where **ultramafic/serpentinite rocks (Group A)** occur in proximity to **granodiorite rocks (Group B)**.
+## Method (summary)
+** Regex-based tagging of polygons into A and B (text columns).
+** Separate geometric unions for groups A and B.
+** Regular grid over the extent (resolution = RES_M).
+** For each cell center: vector distances dA and dB (Shapely).
+** Linear decay: f(d) = max(0, 1 − d / DECAY_M).
+** Final score: fA × fB (high only if close to both).
+** Export: 0–1 GeoTIFF + PNG + summary (metadata).
 
-The solution uses a **linear decay proximity model**:
-- Each raster cell receives a **score between 0 and 1**.  
-- Score = `max(0, 1 - d1/D) * max(0, 1 - d2/D)`  
-  - `d1`, `d2`: distances to nearest Group A and Group B rocks.  
-  - `D`: influence distance (`DECAY_M`).  
-- The score is **high only where both groups are close**.  
-- Larger `DECAY_M` values → more regional influence.  
-- Smaller values → more local hotspots.
+## Key Parameters
+* RES_M: detail vs. time/memory tradeoff.
+* DECAY_M: controls the width of the proximity “halo.”
+* PATTERN_A / PATTERN_B: adapt to your lithology labels.
+* TEXT_COLS_*: columns scanned for tagging.
+* CRS_EPSG: must be projected in meters (script reprojects if needed).
 
----
+## Interpretation
+* Values near 1: priority areas, close to both groups.
+* Values near 0: far from at least one group.
 
-## Input Data
+## Troubleshooting
+* Empty/unreadable input file: check the path and that polygons exist.
+* No A/B matches: loosen regex patterns or add more columns to scan.
+* Odd distances / empty grid: use a projected CRS in meters and a RES_M consistent with your area extent.
 
-- **Bedrock polygons** (`.gpkg`) with lithology descriptions.  
-- Optional: a **land/ocean mask layer** to restrict analysis to land.  
-
-The script scans several text columns (`rock_class`, `rock_type`, `unit_desc`, etc.) for keywords defined by regex patterns.
-
----
-
+## Production Note
+For very large areas or repeated runs, prefer a raster + Euclidean Distance Transform (EDT) workflow: faster and more robust, while keeping the same logic (linear decay + product).
