@@ -19,3 +19,17 @@ Install once (e.g., in a terminal or a notebook cell with `!`):
 
 ```bash
 pip install geopandas rasterio shapely matplotlib numpy
+
+
+## 2) Files & Configuration
+
+Edit the **CONFIG** block near the top of the notebook:
+
+- `INPUT`: path to the **GeoPackage** with bedrock polygons and lithology text columns.  
+- `OUT_TIF`, `OUT_PNG`: output paths for the raster and image.  
+- `PATTERN_A`, `PATTERN_B`: regex patterns to tag Groups A and B from attributes.  
+- `RES_M`: grid cell size (meters). Smaller → finer detail (heavier compute).  
+- `DECAY_M`: distance (m) where proximity decays to 0; larger → broader halos.  
+- `CRS_EPSG`: projected CRS EPSG code (meters).  
+- `TEXT_COLS_ALL`, `TEXT_COLS_B`: columns scanned for regex matches.  
+- `NODATA_VAL`: value written for nodata cells in the GeoTIFF.
