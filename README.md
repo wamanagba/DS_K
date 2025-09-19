@@ -1,39 +1,32 @@
-# 🗺️ Cobalt Heatmap Generator
+## Cobalt Heatmap Generator
 
-This repository provides a Python script to generate a **geospatial heatmap** that highlights areas with potential cobalt-rich geology.  
-The method is based on **proximity scoring**: cells close to both **ultramafic/serpentinite rocks** (Group A) and **granodiorite rocks** (Group B) receive higher scores.
-
----
-
-## 📌 Overview
-
-- **Input:** Geological bedrock polygons (`.gpkg`).  
-- **Process:**  
-  1. Extract polygons containing specific lithology keywords (regex-based search).  
-  2. Compute distances to **Group A** and **Group B** rock types.  
-  3. Apply a **linear decay function** with cutoff distance `DECAY_M`.  
-  4. Rasterize results into a grid (`RES_M` resolution).  
-- **Output:**  
-  - A **GeoTIFF raster** (`.tif`) with scores between `0–1`.  
-  - A **PNG heatmap** for visualization.  
-
-The score is **1.0** when a cell touches both rock groups, and decreases linearly to **0.0** at distance `DECAY_M`.
+This repository contains a Python script that generates a **cobalt prospectivity heatmap** from geological bedrock polygons.  
+The method is based on **distance to specific rock types** and produces both a GIS-ready raster (`.tif`) and a visualization image (`.png`).
 
 ---
 
-## ⚙️ Configuration
+## Problem & Approach
 
-Edit the configuration block at the top of the script before running:
+The challenge is to identify areas that are **potentially favorable for cobalt** by analyzing geological formations.  
+We assume that cobalt is most likely to be found where **ultramafic/serpentinite rocks (Group A)** occur in proximity to **granodiorite rocks (Group B)**.
 
-```python
-INPUT      = "path/to/BedrockP.gpkg"     # Bedrock polygons
-OUT_TIF    = "path/to/heatmap_cobalt.tif" # GeoTIFF output
-OUT_PNG    = "path/to/heatmap_cobalt.png" # PNG preview
+The solution uses a **linear decay proximity model**:
+- Each raster cell receives a **score between 0 and 1**.  
+- Score = `max(0, 1 - d1/D) * max(0, 1 - d2/D)`  
+  - `d1`, `d2`: distances to nearest Group A and Group B rocks.  
+  - `D`: influence distance (`DECAY_M`).  
+- The score is **high only where both groups are close**.  
+- Larger `DECAY_M` values → more regional influence.  
+- Smaller values → more local hotspots.
 
-PATTERN_A  = r"ultramafic|serpentin\w*|dunite|harzburgite|peridotite|komatiite|ophiolite"
-PATTERN_B  = r"granodior\w*"
+---
 
-RES_M      = 250     # Grid resolution in meters
-DECAY_M    = 10000   # Influence radius (meters)
-CRS_EPSG   = 26910   # Coordinate reference system (EPSG code)
+## Input Data
+
+- **Bedrock polygons** (`.gpkg`) with lithology descriptions.  
+- Optional: a **land/ocean mask layer** to restrict analysis to land.  
+
+The script scans several text columns (`rock_class`, `rock_type`, `unit_desc`, etc.) for keywords defined by regex patterns.
+
+---
 
