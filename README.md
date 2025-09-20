@@ -12,8 +12,7 @@ Generates a proximity map highlighting areas simultaneously close to two litholo
 * Dependencies: geopandas, rasterio, shapely, numpy, matplotlib
 * Tip: if installation fails (GDAL/GEOS/PROJ issues), use Conda (conda-forge channel).
 
-# To Configure (at the top of the script)
-
+## To Configure 
 * INPUT: path to BedrockP.gpkg
 * OUT_TIF / OUT_PNG: output paths
 * RES_M: cell size in meters (e.g., 250)
@@ -22,7 +21,7 @@ Generates a proximity map highlighting areas simultaneously close to two litholo
 
 ## How to Run
 
-* In Jupyter: run the cells (config + functions), then call the main function(`make\_heatmap`) to produce the GeoTIFF and PNG.
+* In Jupyter: run the cells (config + functions), then call the main function(`make_heatmap`) to produce the GeoTIFF and PNG.
 * As a script: execute the Python file after adjusting paths and parameters.
 * Quick check: run the self-test to confirm the scoring logic.
 
