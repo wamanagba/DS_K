@@ -12,7 +12,7 @@ Generates a proximity map highlighting areas simultaneously close to two litholo
 * Dependencies: geopandas, rasterio, shapely, numpy, matplotlib
 * Tip: if installation fails (GDAL/GEOS/PROJ issues), use Conda (conda-forge channel).
 
-#To Configure (at the top of the script)
+# To Configure (at the top of the script)
 
 * INPUT: path to BedrockP.gpkg
 * OUT_TIF / OUT_PNG: output paths
