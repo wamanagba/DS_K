@@ -1,0 +1,355 @@
+column,value,count
+rock_class,sedimentary rocks,556
+rock_class,intrusive rocks,455
+rock_class,volcanic rocks,435
+rock_class,metamorphic rocks,104
+rock_class,ultramafic rocks,46
+rock_type,undivided sedimentary rocks,246
+rock_type,undivided volcanic rocks,149
+rock_type,granodioritic intrusive rocks,147
+rock_type,marine sedimentary and volcanic rocks,146
+rock_type,basaltic volcanic rocks,141
+rock_type,dioritic intrusive rocks,96
+rock_type,coarse clastic sedimentary rocks,79
+rock_type,quartz dioritic intrusive rocks,72
+rock_type,ultramafic rocks,46
+rock_type,calc-alkaline volcanic rocks,44
+rock_type,serpentinite ultramafic rocks,42
+rock_type,"mudstone, siltstone, shale fine clastic sedimentary rocks",39
+rock_type,"high level quartz phyric, felsitic intrusive rocks",39
+rock_type,andesitic volcanic rocks,37
+rock_type,feldspar porphyritic intrusive rocks,37
+rock_type,"conglomerate, coarse clastic sedimentary rocks",31
+rock_type,gabbroic to dioritic intrusive rocks,25
+rock_type,dacitic volcanic rocks,20
+rock_type,quartz monzonitic intrusive rocks,15
+rock_type,metamorphic rocks undivided,15
+rock_type,mixed volcanic and sedimentary rocks,14
+rock_type,orthogneiss metamorphic rocks,14
+rock_type,"rhyolite, felsic volcanic rocks",11
+rock_type,"limestone, marble, calcareous sedimentary rocks",10
+rock_type,coarse volcaniclastic and pyroclastic volcanic rocks,9
+rock_type,lower amphibolite/kyanite grade metamorphic rocks,8
+rock_type,mid amphibolite/andalusite grade metamorphic rocks,8
+rock_type,"granite, alkali feldspar granite intrusive rocks",6
+rock_type,"greenstone, greenschist metamorphic rocks",6
+rock_type,tonalite intrusive rocks,6
+rock_type,"metamorphic rocks, undivided",6
+rock_type,blueschist metamorphic rocks,5
+rock_type,"diabase, basaltic intrusive rocks",4
+rock_type,dioritic to syenitic intrusive rocks,4
+rock_type,bimodal volcanic rocks,4
+rock_type,"argillite, greywacke, wacke, conglomerate turbidites",3
+rock_type,syenitic to monzonitic intrusive rocks,3
+rock_type,mafic volcanic rocks,3
+rock_type,alkaline volcanic rocks,2
+rock_type,volcaniclastic rocks,1
+rock_type,sedimentary and volcanic rocks,1
+rock_type,porphyry,1
+rock_type,"chert, siliceous argillite, siliciclastic rocks",1
+unit_desc,"olivine basalt flows; minor interflow breccia and pillow breccia; locally includes gabbro, conglomerate, sandstone, siltstone and diatomite",64
+unit_desc,"hornblende diorite, hornblende-biotite diorite to quartz diorite, hornblende-feldspar porphyry; hornblende-biotite-feldspar porphyry, feldspar porphyry",59
+unit_desc,"ribbon chert, argillite and pillowed to massive basalt, with lesser amounts of limestone, gabbro, diabase, serpentinite, siltstone, sandstone, pebble conglomerate, slate, phyllite and quartz phyllite",59
+unit_desc,"siltstone, shale, calcareous shale, siliceous argillite, sandstone and gritty sandstone; local conglomerate, limestone, silty limestone, andesite, volcanic breccia",38
+unit_desc,"late glacial to early post glacial:  olivine basalt flows, basaltic andesite flows and pyroclastic cones, rhyolite, dacite and andesite flows and domes; polymictic breccias and pyroclastics, minor intercalated sediments; includes  silverthrone vol",35
+unit_desc,"andesite, basalt and related tuffs and breccias; local, dacite, trachyte, rhyolite, sandstone, conglomerate, mudstone, shale",35
+unit_desc,"sandstone and siltstone; calcareous sandstone, coquina; conglomerate and conglomeratic sandstone containing mainly volcanic and plutonic clasts",32
+unit_desc,"sandstone, calcarenite, pebbly sandstone, polymictic conglomerate, siltstone, shale; local limestone, basalt, limestone-basalt breccia",31
+unit_desc,hornblende-biotite-quartz-feldspar porphyry; quartz-feldspar porphyry,30
+unit_desc,"andesitic volcanic breccia, lapilli tuff and ash tuff; mafic to intermediate volcanic flows; volcanic sandstone and conglomerate; local siltstsone and shale",30
+unit_desc,"basalt, andesite, dacite, trachyte, rhyolite; related tuffs and breccias; minor amounts of mudstone, shale, sandstone and conglomerate; includes dewdrop flats formation",30
+unit_desc,"micaceous quartzofeldspathic sandstone and shale; polymictic conglomerate, lithic sandstone, conglomeratic sandstone; local volcanic conglomerate",28
+unit_desc,"undifferentiated gambier group volcanic and sedimentary rocks include thick bedded basaltic andesite, dacitic and rhyolitic tuffs, flows and volcanic breccia, greenstone, pillowed basalt, argillite, greywacke, shale, siltstone, basal conglomerate",25
+unit_desc,"granodiorite, lesser quartz diorite and diorite",23
+unit_desc,"serpentinite, commonly with knockers of ultramafic rock, gabbro, diorite, diabase, amphibolite, basalt, sandstone, pebble conglomerate, limestone, chert; local talc schist, listwanite, rodingite",22
+unit_desc,"hornblende quartz diorite, hornblende diorite, hornblende-plagioclase porphyry; rare granodiorite",22
+unit_desc,"chert, argillite, limestone, basalt; local siltstone, sandstone, siliceous phyllite, diorite, gabbro, serpentinite",21
+unit_desc,"diorite, gabbro and diabase; local soda granite, quartz diorite, basalt, serpentinite; rare limestone, chert",21
+unit_desc,"pebble to cobble conglomerate containing clasts of chert, volcanic rock and sandstone; lesser amounts of sandstone, siltstone and shale; local arkosic sandstone, volcanic conglomerate",20
+unit_desc,"hornblende-biotite-plagioclase-quartz porphyry; hornblende-biotite-plagioclase porphyry; local quartz diorite, diorite, granodiorite",20
+unit_desc,"undivided ribbon chert, argillite, phyllite, quartz phyllite and pillowed to massive greenstone, with lesser amounts of limestone, gabbro, diabase, serpentinite, sandstone and pebble conglomerate; locally includes minor amounts of cayoosh assembla",19
+unit_desc,"serpentinite, commonly with knockers and fault slivers of chert, basalt, limestone; local listwanite",18
+unit_desc,"volcaniclastic sandstone, siltstone, shale and argillite; lesser amounts of pebble to cobble conglomerate, limy sandstone, tuff, greenstone, quartzite and fragmental metavolcanic rocks; includes brew group",18
+unit_desc,"biotite-hornblende granodiorite and quartz diorite; tonalite, diorite",17
+unit_desc,"andesite and dacite flows and breccias; minor basalt and rhyolite; local sandstone, shale and conglomerate",16
+unit_desc,"chert-pebble conglomerate, chert-rich sandstone, shale and siltstone",16
+unit_desc,"dacite and rhyolite flows, tuffs and breccias; local conglomerate, sandstone, siltstone, and shale",15
+unit_desc,granodiorite,15
+unit_desc,quartz diorite; lesser granodiorite,15
+unit_desc,"hornblende-biotite granodiorite; quartz monzonite, quartz diorite, hornblende diorite; rare hornblendite",15
+unit_desc,"siliceous shale, siltstone and fine grained sandstone; medium to coarse grained sandstone, calcareous sandstone, and calcareous siltstone; pebble conglomerate containing mainly felsic to intermediate volcanic clasts",15
+unit_desc,"biotite-quartz schist, biotite-chlorite-actinolite schist, calcareous actinolite schist, biotite-garnet schist, talc schist, metachert and marble; local small bodies of variably deformed granodiorite and orthogneiss",15
+unit_desc,"conglomerate, sandstone and siltstone; minor rhyolite ash, diatomite, diatomaceous siltstone, basalt and breccia",14
+unit_desc,dark grey shale and siltstone; sandstone and calcareous sandstone,14
+unit_desc,"volcanic sandstone, conglomeratic sandstone, siltstone, basalt and basalt breccia; local limestone, slate, felsic tuff, conglomerate and chert",14
+unit_desc,"sandstone, siltstone and shale; pebble conglomerate containing clasts of chert, volcanic rock and clastic sedimentary rock; calcareous sandstone and shale; ash and crystal tuff",13
+unit_desc,"arkosic sandstone, conglomeratic sandstone, siltstone, shale and conglomerate",13
+unit_desc,"argillite, siltstone, sandstone, conglomerate; minor carbonate",13
+unit_desc,"predominantly felsic orthogneiss; granitoid gneiss, local agmatite, migmatite, amphibolite and schist",12
+unit_desc,"lithic sandstone, conglomeratic sandstone and pebble conglomerate; lesser amounts of siltstone and shale; very minor amounts of laminated silty limestone; locally abundant fossil plant remains",12
+unit_desc,"siltstone, sandstone, shale and argillite; lesser amounts of pebble to cobble conglomerate, limy sandstone, tuff, greenstone, quartzite and fragmental metavolcanic rocks",12
+unit_desc,"basalt, andesite, dacite and rhyolite flows and breccias; local conglomerate, sandstone, shale and lignite",11
+unit_desc,"black shale, siltstone turbidites, volcaniclastic sandstone, crystal-lithic tuff; minor andesitic flows",11
+unit_desc,"andesitic to basaltic flows and breccias; lapilli tuff, conglomerate, volcaniclastic sandstone, siltstone turbidites, shale, fine-grained sandstone",11
+unit_desc,"felsic to intermediate volcanic breccia, volcaniclastic sandstone, siltstone, shale, plagioclase-phyric andesite",11
+unit_desc,shale and sandstone; pebble to cobble conglomerate containing volcanic clasts and less abundant sedimentary and plutonic clasts,10
+unit_desc,granodiorite; minor quartz diorite,10
+unit_desc,"serpentinite, harzburgite, dunite, wehrlite, clinopyroxenite, gabbro, diorite, quartz diorite, soda granite, diabase, pillowed to massive greenstone and greenstone breccia; minor amounts of limestone and chert",10
+unit_desc,"hornblende-biotite-quartz-feldspar porphyry, hornblende-feldspar porphyry, quartz-feldspar porphyry",10
+unit_desc,"intermediate to felsic volcanic flows and tuffs; volcanic breccia and conglomerate; local intercalations of sandstone, siltstone and shale",10
+unit_desc,"pillowed and massive basalt, basalt breccia; local diabase and gabbro",10
+unit_desc,"mafic to felsic pyroclastic rocks and flows; argillite, sandstone, local carbonate",10
+unit_desc,"serpentinite, commonly with knockers and fault slivers of other bridge river rock types",9
+unit_desc,"conglomerate, conglomeratic sandstone, sandstone and calcareous sandstone; local limestone, limestone conglomerate siltstone, coquina",9
+unit_desc,"well stratified lapilli tuff, volcanic breccia, lahar, volcanic conglomerate and sandstone",9
+unit_desc,"serpentinite, serpentinized ultramafite, serpentinite melange with blocks of diorite, basalt, limestone, chert",9
+unit_desc,"andesite flows and breccias intercalated with volcanic sandstone, shale and conglomerate; lesser basalt and rhyolite",9
+unit_desc,medium to coarse-grained biotite-hornblende granodiorite,8
+unit_desc,serpentinite and serpentinized ultramafic rocks,8
+unit_desc,"basalt and andesite flows; related breccia and tuff; minor dacite, conglomerate and siltstone",8
+unit_desc,"massive and bedded limestone; local argillite, chert, basalt",8
+unit_desc,basalt to rhyodacite flows and pyroclastics; minor intercalated sediments,8
+unit_desc,"sandstone, quartz sandstone, chert pebble conglomerate, argillite, siltstone; rare felsic tuff",8
+unit_desc,granodiorite; lesser quartz diorite and quartz monzonite,8
+unit_desc,"quartz-feldspar-phyric rhyolite and rhyolite breccia; local sandstone, siltstone, and conglomerate",8
+unit_desc,"sandstone, chert-grain sandstone, siltstone, conglomerate; local rhyolitic tuff; coalified wood and local coal seams",8
+unit_desc,"massive and pillowed basalt; local basalt breccia, conglomerate, andesite, felsic tuff, chert, sandstone, shale",8
+unit_desc,"granodiorite, quartz diorite, quartz monzonite; lesser monzonite, diorite and gabbro",7
+unit_desc,quartz diorite to granodiorite; minor diorite,7
+unit_desc,"amygdaloidal andesite; lesser amounts of dense andesite, mafic volcanic breccia and epiclastic rocks",7
+unit_desc,"diorite, quartz diorite, gabbro",7
+unit_desc,granodiorite and slightly younger porphyry dikes and plugs,7
+unit_desc,"polymictic pebble to boulder conglomerate containing mainly volcanic and granitoid clasts; lesser amounts of sandstone, conglomeratic sandstone, siltstone and shale",6
+unit_desc,"andesite and dacite flows and breccias intercalated with volcanic sandstone, shale and conglomerate; lesser basalt and rhyolite",6
+unit_desc,"quartz diorite, variably foliated; lesser granodiorite; includes minor gneissic diorite and inclusions and screens of other rock types; includes burnett bay and lillooet river intrusion",6
+unit_desc,"variably foliated granodiorite; lesser quartz diorite; includes fish egg, smith inlet, belize inlet, draney inlet, sandell, mcfee bay, rivers inlet, amback, kwatna, doos creek, kingcome, namu, big julie, castle towers, meslillooet, pinecone, vicke",6
+unit_desc,"sandstone, calcarenite and siltstone; polymict conglomerate, pebbly mudstone, limestone-greenstone breccia and micritic limestone; locally includes greenstone, mafic volcanic breccia, mafic tuff and tuffaceous sandstone",6
+unit_desc,intermediate pyroclastic rocks; local pillowed and plagioclase porphyry flows,6
+unit_desc,quartz monzonite,6
+unit_desc,hornblende-quartz-feldspar porphyry,6
+unit_desc,hornblende-biotite granodiorite to quartz diorite; plagioclase-hornblende-biotite porphyry,6
+unit_desc,basalt flows and breccia; locally intercalated with conglomerate and siltstone; minor dacite and andesite,5
+unit_desc,diorite and amphibolite,5
+unit_desc,mafic breccia and tuff with augite and hornblende-phyric clasts; local intercalated argillite,5
+unit_desc,"metamorphosed tectonic melange comprising imbricated slivers of bralorne-east liza complex, bridge river complex, amd clastic metasedimentary rocks",5
+unit_desc,"quartz diorite; includes cloudburst, ashlu creek and ward point plutons",5
+unit_desc,andesite to basalt flows and breccia; minor dacite,5
+unit_desc,hornblende-feldspar porphyry,5
+unit_desc,"garnet-biotite, kyanite and sillimanite schist; local amphibolite",5
+unit_desc,"glaucophane schist, metabasalt, metachert and metagabbro with blue amphibole",5
+unit_desc,"varitextured, weakly to strongly foliated, chloritized hornblende diorite; local leucodiorite, quartz diorite, tonalite",5
+unit_desc,olivine basalt flows; minor tuff,5
+unit_desc,diorite,5
+unit_desc,"variably foliated quartz diorite; lesser granodiorite; includes malaspina, howe sound, east sechelt and spuzzum plutons",5
+unit_desc,"polymictic conglomerate; volcanic conglomerate and breccia; sandstone, siltstone and shale; rare welded tuff",4
+unit_desc,"sandstone, conglomerate, argillite, coal; includes ""coldwater beds"" and allenby formation of the princeton group",4
+unit_desc,fine-grained mafic intrusion,4
+unit_desc,"granodiorite, quartz diorite; diorite",4
+unit_desc,"basalt, epidote-chlorite schist, rhyolite, quartz-rich felsic tuff; locally includes tonalite, diorite, granodiorite",4
+unit_desc,"granodiorite, lesser quartz diorite; includes owikeno and scuzzy plutons",4
+unit_desc,"undifferentiated mafic to felsic volcanic and volcaniclastic rocks, including augite-phyric flows, tuffs and breccias; lesser argillite, greywacke and limestone",4
+unit_desc,"gabbro, layered gabbro, diorite; local pyroxenite, quartz diorite, tonalite",4
+unit_desc,"sandstone, conglomerate, shale, argillite, coal; minor tuff",4
+unit_desc,"intermediate, locally mafic and felsic, flows and volcaniclastic rocks",4
+unit_desc,"siltstone, argillite, slate; lesser sandstone, conglomerate and limestone",4
+unit_desc,"hornblende-biotite tonalite and quartz diorite; unfoliated to weakly foliated, locally strongly foliated to mylonitic; local diorite, granodiorite",4
+unit_desc,"syenite, monzonite, monzodiorite, diorite, quartz monzonite, quartz monzodiorite, quartz diorite; local nepheline syenite, clinopyroxenite, peridotite and gabbro",4
+unit_desc,"argillite, slate, phyllite, siltstone, tuff",4
+unit_desc,quartz diorite,4
+unit_desc,"conglomerate, sandstone, shale, crystal and lapilli tuff, tuffaceous sandstone, volcanic conglomerate, volcanic breccia, andesitic to dacitic flows",4
+unit_desc,"mafic to intermediate flows, breccias and tuffs; limestone; minor felsic flows; cobble conglomerate, sandstone, siltstone and shale",3
+unit_desc,"pillowed to massive greenstone, mafic volcanic breccia and mafic tuff",3
+unit_desc,"garnet-biotite, staurolite, kyanite and sillimanite schist, local amphibolite, minor ultramafic rocks and siliceous schist, metamorphosed in cretaceous; includes settler schist and broken formation",3
+unit_desc,"granodiorite, granite, quartz monzonite",3
+unit_desc,"metasedimentary rocks, probably correlative with the cayoosh assemblage; mainly micaceous quartzite, biotite-hornblende schist, garnet and staurolite schist, phyllite, semischist and conglomerate",3
+unit_desc,biotite granodiorite; leucocratic granite to granodiorite,3
+unit_desc,felsic to mafic metavolcanic schist and gneiss (greenschist to amphibolite facies),3
+unit_desc,aphyric and pyroxene-hornblende-plagioclase-phyric andesite; local flow breccia,3
+unit_desc,"mafic to intermediate volcanic breccia, conglomerate, flows and sills; minor sandstone, argillite, siltstone, and limestone",3
+unit_desc,"hornblende-biotite granodiorite, quartz monzodiorite, quartz diorite",3
+unit_desc,"nonmarine sandstone, siltstone, conglomerate, and rhyolitic tuff; contains coalified wood and local coal seams.",3
+unit_desc,volcanic conglomerate and breccia; dark grey shale with intercalations of siltstone and sandstone; mafic to intermediate volcanic rocks,3
+unit_desc,"small dioritic plutons in nicola group (trnm), diorite and amphibolite of mount lytton complex, dioritic hedley intrusions",3
+unit_desc,basalt flows and flow breccias; local conglomerate,3
+unit_desc,"porphyritic dacite and volcanic breccia; minor amounts of conglomerate, sandstone, shale and lignite",3
+unit_desc,"quartz monzonite and quartz monzodiorite; includes salal creek pluton, fall creek stock and hoodoo creek stock",3
+unit_desc,"weakly to strongly foliated, chloritized hornblende quartz monzodiorite, quartz diorite, diorite; lesser hornblende tonalite, granodorite, monzogranite",3
+unit_desc,"amphibolite, marble, calc-silicate rock, feldspathic schist, gneiss",3
+unit_desc,andesitic volcanic breccia and conglomerate; lesser basalt,3
+unit_desc,"mainly greenschist-grade mafic to intermediate volcanics, phyllite, minor volcanic- and carbonate-clast supported conglomerate; metamorphosed in the cretaceous",3
+unit_desc,olivine basalt,3
+unit_desc,"andesitic to dacitic tuff, breccia and agglomerate; andesitic flows; argillite, sandstone, conglomerate",3
+unit_desc,"layered quartzofeldspathic rock, amphibolite and mylonite",3
+unit_desc,diorite; includes goat lake pluton and west redonda diorite,3
+unit_desc,quartz monzonite to granodiorite and slightly younger porphyry dikes and plugs,3
+unit_desc,"flow banded, vesicular rhyolite; part of rainbow range",3
+unit_desc,"laminated schistose quartzite, graphitic and semi-pelitic schist, quartzofeldspathic gneiss, amphibolite; minor ultramafic rock",3
+unit_desc,"undivided; andesitic breccia, tuff and flows, greenstone; lesser slate, argillite, phyllite, conglomerate, limestone, rhyolitic breccia and flows; includes hurley and pioneer formations",3
+unit_desc,"boulder to granule conglomerate, sandstone, siltstone and shale; conglomerate contains granitoid clasts that have yielded late jurassic u-pb zircon dates",2
+unit_desc,"undivided lmjys and lkjmy1: lithic-arkosic sandstone, granule to small pebble conglomerate, siltstone and shale; minor andesitic breccia and tuff, tuffaceous sandstone and silty limestone; may include barremian-aptian rocks of the jackass mountain",2
+unit_desc,"alkali olivine basalt flows, hyaloclastite and breccia",2
+unit_desc,"intermediate, locally felsic and mafic volcanics, sandstone, shale and conglomerate",2
+unit_desc,"biotite-hornblende diorite, quartz monzonite, granodiorite",2
+unit_desc,"sandstone, siltstone, and conglomerate",2
+unit_desc,"ultramafic rocks, commonly associated with alkalic intrusions; includes dunite, wehrlite, pyroxenite, gabbro;",2
+unit_desc,"quartz diorite, tonalite",2
+unit_desc,"tuffaceous sandstone, tuffaceous siltstone, argillite, graphitic siltstone with minor interbedded carbonate, lapilli tuff, andesite flows and/or sills",2
+unit_desc,"argillite, siltstone, sandstone, conglomerate; local carbonate",2
+unit_desc,quartz monzonite; minor granite,2
+unit_desc,granitoid gneiss; migmatite; locally includes amphibolite and schist,2
+unit_desc,"hornblende-biotite granodiorite; local diorite, granite, hornblende-feldspar porphyry, quartz-feldspar porphyry",2
+unit_desc,"granodiorite and lesser quartz diorite; includes yale intrusions, sheemahant, machmell and clendenning plutons",2
+unit_desc,plagioclase-hornblende-biotite porphyritic quartz diorite,2
+unit_desc,"siltstone, shale, sandstone, limestone; rare volcanic breccia",2
+unit_desc,"hornblende granodiorite, quartz diorite, tonalite, diorite",2
+unit_desc,quartz porphyry,2
+unit_desc,"quartz-feldspar porphyry, quartz-feldspar-hornblende porphyry",2
+unit_desc,leucosyenite,2
+unit_desc,basalt; local pillowed basalt and basalt breccia,2
+unit_desc,"undivided: andesite; lesser basalt, dacite, rhyolite and tuff",2
+unit_desc,carbonate in mount lytton complex (trjd); probably triassic in age,2
+unit_desc,"harzburgite, with lesser amounts of dunite and orthopyroxenite (variably serpentinized); locally with a penetrative foliation and lineation inferred to be a mantle tectonite fabric",2
+unit_desc,"hornblende-biotite-quartz-plagioclase-phyric dacite; local breccia and welded tuff; local conglomerate, sandstone, shale, and lignite",2
+unit_desc,"hornblende-biotite monzogranite; local granodiorite, quartz diorite, diorite",2
+unit_desc,"diorite, migmatite, amphibolite",1
+unit_desc,"quartz diorite, minor granodiorite, diorite and greenstone; includes lord, mount gilbert and scuzzy plutons",1
+unit_desc,"phyllite, semischist; local conglomerate",1
+unit_desc,"sandstone, argillite, local mafic and intermediate volcanics; part of the ladner group",1
+unit_desc,"zoned granodiorite, quartz monzonite, tonalite, includes mount barr batholith",1
+unit_desc,"undifferentiated sandstone, chert-grained sandstone, conglomerate, argillite, arkose, minor red beds and tuff; in part probably the non-marine facies equivalent of the jackass mountain group (kj)",1
+unit_desc,"diorite, quartz diorite, tonalite, amphibolite",1
+unit_desc,"diorite, monzonite, syenite; includes cherry creek pluton",1
+unit_desc,"sandstone, argillite, conglomerate",1
+unit_desc,strongly imbricated mjbr together with fault slivers of ultramafic rock and cayoosh assemblage,1
+unit_desc,granite; includes falls lake suite of the eagle plutonic complex,1
+unit_desc,"lacustrine mudstone and siltstone, tuffaceous siltstone, andesitic flows and tuffs; volcanic breccia and lahar; local lithic-arkosic wacke, organic-rich shale and minor coal",1
+unit_desc,"argillite, slate, siltstone, tuff and minor amounts of upper jurassic sandstone and conglomerate",1
+unit_desc,ultramafic rock and local gabbro; associated with hozameen and bridge river complexes,1
+unit_desc,"andesitic to dacitic tuff, breccia, agglomerate and flows; conglomerate, argillite, carbonate",1
+unit_desc,"andesitic to dacitic tuff, breccia agglomerate and flows; conglomerate, argillite, carbonate; uncertain correlation with cadwallader group/terrane",1
+unit_desc,"amphibolite, foliated diorite, mylonite and chlorite schist derived from nicola group",1
+unit_desc,quartz-feldspar porphyry granite,1
+unit_desc,granite,1
+unit_desc,"volcanic breccia, andesite; local volcanic conglomerate",1
+unit_desc,metamorphosed andesitic to dacitic tuff and breccia; conglomerate; lesser schist and feldspar porphyry,1
+unit_desc,granodiorite to quartz monzonite,1
+unit_desc,diorite; includes malibu diorite,1
+unit_desc,"massive diorite, pyroxene diorite, lesser gabbro and norite and dioritic complex, incorporating inclusions and screens of other rock types",1
+unit_desc,"variably foliated diorite (includes pemberton diorite) and dioritic complex, incorporating inclusions and screens of other rock types",1
+unit_desc,"diorite, gabbro, monzodiorite, quartz diorite, quartz monzodiorite",1
+unit_desc,"volcanic sandstone, conglomerate, chert, slate and siltstone; local basalt and basalt breccia",1
+unit_desc,plagioclase aplite,1
+unit_desc,tonalite; eagle tonalite of the eagle plutonic complex (includes eagle gneiss),1
+unit_desc,"sandstone, shale, and pebble conglomerate containing intermediate and mafic volcanic clasts",1
+unit_desc,hornblende syenite,1
+unit_desc,"basalt to andesiste flows and tuffs; conglomerate, mudstone and sandstone; rhyolite flows; felsic tuffs and volcaniclastic rocks",1
+unit_desc,"micaceous quartzite, biotite-hornblende schist, minor garnet and staurolite schist",1
+unit_desc,"sandstone, conglomerate, siltstone, shale",1
+unit_desc,"chert, argillite, phyllite, siliceous phyllite; local limestone, basalt, diorite, serpentinite",1
+unit_desc,"sandstone, shale, conglomerate, tuffaceous sandstone, andesite, dacite",1
+unit_desc,hornblende porphyry,1
+unit_desc,polymictic pebble to cobble conglomerate; volcanic pebble to boulder conglomerate; volcanic lithic sandstone and pebbly sandstone; local mudstone and siltstone,1
+unit_desc,"medium to coarse-grained muscovite-biotite tonalite; local feldspar porphyry, muscovite pegmatite, mylonitic tonalite",1
+unit_desc,"siltstone, sandstone, conglomerate; locally includes quartz and feldspar-phyric metavolcanic flows, volcaniclastic sandstone and siltstone",1
+unit_desc,"poorly consolidated tuff, breccia, diatomite, sandstone, conglomerate",1
+unit_desc,"wehrlite, websterite, dunite and clinopyroxenite",1
+unit_desc,"biotite porphyry granite, feldspar porphyritic monzodiorite dikes, aplite dikes",1
+unit_desc,"sandstone, argillite, conglomerate; upper part is likely the facies equivalent of the pasayten group",1
+unit_desc,"metamorphosed greywacke, mudstone, black shale; schist, graphite schist",1
+unit_desc,"massive, fresh, biotite-hornblende quartz monzonite",1
+unit_desc,"pillow basalt, volcanic breccia, greenstone, minor limestone",1
+strat_name,bridge river complex,126
+strat_name,chilcotin group,84
+strat_name,kamloops group,67
+strat_name,bralorne-east liza complex,49
+strat_name,ladner group,44
+strat_name,garibaldi group,43
+strat_name,cadwallader group - hurley formation,37
+strat_name,cayoosh assemblage,33
+strat_name,relay mountain group - teepee mountain formation,32
+strat_name,cache creek complex,31
+strat_name,powell creek formation,30
+strat_name,gambier group,28
+strat_name,taylor creek group - lizard formation,28
+strat_name,anvil mountain suite,24
+strat_name,jackass mountain group,22
+strat_name,shulaps ultramafic complex - serpentinite melange unit,22
+strat_name,nicola group,20
+strat_name,silverquick formation,20
+strat_name,spences bridge group,18
+strat_name,taylor creek group,18
+strat_name,bendor suite,17
+strat_name,spences bridge group - pimainus formation,17
+strat_name,taylor creek group - dash formation,16
+strat_name,mount martley - tiffin creek plutonic suite,15
+strat_name,relay mountain group - tyoax pass formation,15
+strat_name,mount lytton complex,15
+strat_name,ashcroft formation,15
+strat_name,relay mountain group - potato range formation,14
+strat_name,taylor creek group - beece creek succession,13
+strat_name,jackass mountain group - lower division,12
+strat_name,taylor creek group - falls river formation,11
+strat_name,tchaikazan river succession - sedimentary facies,11
+strat_name,tchaikazan river succession - volcanic facies,11
+strat_name,cadwallader group,11
+strat_name,nicola group - western volcanic facies,10
+strat_name,guichon creek batholith - highland valley phase,10
+strat_name,taylor creek group - paradise formation,10
+strat_name,powell creek formation - upper unit,9
+strat_name,tyaughton group,9
+strat_name,cache creek complex - marble canyon formation,8
+strat_name,princeton group,8
+strat_name,mission ridge suite,8
+strat_name,guichon creek batholith - border phase,7
+strat_name,spences bridge group - spius creek formation,7
+strat_name,guichon creek batholith - bethlehem phase,7
+strat_name,nicola group - central volcanic facies,6
+strat_name,nicola group - eastern volcanic facies,5
+strat_name,piltz peak diorites,5
+strat_name,venables valley assemblage,5
+strat_name,chism creek schist,5
+strat_name,guichon suite - guichon creek batholith - border phase,4
+strat_name,piltz peak tonalites,4
+strat_name,cayoosh assemblage?,4
+strat_name,shulaps ultramafic complex - serpentinite melange unit - gabbro,4
+strat_name,gambier group - peninsula and brokenback hill formations,4
+strat_name,powell creek formation - basal conglomerate,4
+strat_name,mount alex pluton,3
+strat_name,kamloops group - hat creek beds,3
+strat_name,cadwallader group - volcanic unit,3
+strat_name,cadwallader group?,3
+strat_name,slollicum schist,3
+strat_name,settler schist,3
+strat_name,guichon creek batholith - bethsaida phase,3
+strat_name,taylor creek group - tosh creek unit,3
+strat_name,piltz peak metavolcanics,3
+strat_name,thuya batholith,3
+strat_name,mount moore formation,3
+strat_name,"cleaver gneiss, resurrection schist and charon amphibolite",3
+strat_name,wells gray volcanics,2
+strat_name,bowen island group,2
+strat_name,little basin pluton,2
+strat_name,ste. marie plutonic suite,2
+strat_name,cerulean lake unit,2
+strat_name,rayfield river pluton - leucosyenite phase,2
+strat_name,twin creek assemblage,2
+strat_name,whistler pendant,2
+strat_name,shulaps ultramafic complex - harzburgite unit,2
+strat_name,iron mask batholith - cherry creek unit,1
+strat_name,kamloops group - tranquille formation,1
+strat_name,gambier group - mount eurydice formation,1
+strat_name,guichon creek batholith - gump lake phase,1
+strat_name,pasayten group,1
+strat_name,ladner group - dewdney creek formation,1
+strat_name,pemberton diorite complex,1
+strat_name,taylor creek group - elbow pass formation,1
+strat_name,rayfield river pluton - syenite phase,1
+strat_name,guichon creek batholith,1
+strat_name,flapjack peak formation,1
+strat_name,guichon suite - guichon creek batholith - spatsum quartz monzonite,1
+strat_name,newton hill volcanics,1
+strat_name,piltz peak leucotonalite,1
+strat_name,shulaps ultramafic complex - serpentinite melange unit - layered ultramafic rocks,1
+strat_name,taylor creek group?,1
+strat_name,gambier group - styx formation,1
+strat_name,vancouver group - karmutsen formation,1
